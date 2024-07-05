@@ -25,11 +25,12 @@ public class PeliculaController {
 		Pelicula pelicula1 = new Pelicula("Titanic", "James Cameron", "drama");
 		Pelicula pelicula2 = new Pelicula("Forest Gump", "Robert Zemekis", "drama");
 		Pelicula pelicula3 = new Pelicula("Star Wars", "George Lucas", "Ficción");
+		Pelicula pelicula4 = new Pelicula("Star Wars", "George Lucas", "Ficción");
 		
 		repositorio.save(pelicula1);
 		repositorio.save(pelicula2);
 		repositorio.save(pelicula3);
-		
+		repositorio.save(pelicula4);
 		
 	}
 	
