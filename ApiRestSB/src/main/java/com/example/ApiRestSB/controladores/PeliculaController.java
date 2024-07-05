@@ -11,7 +11,7 @@ import com.example.ApiRestSB.repositorios.PeliculaRepository;
 @RestController
 public class PeliculaController {
 	
-	//Prueba de editado
+	//Prueba de editado 2
 	
 	PeliculaRepository repositorio;
 
